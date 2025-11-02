@@ -35,12 +35,12 @@ load_dotenv()
 # 📲 Telegram & API Credentials
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-OWNER_ID = int(os.getenv("OWNER_ID", None))
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", "WTF_WhyMeeh")
-BOT_USERNAME = os.getenv("BOT_USERNAME", "ShrutixMusicBot")
+API_ID = int(os.getenv("22091901"))
+API_HASH = os.getenv("54b0cd5fb47a40265b197f1a110b20b8")
+BOT_TOKEN = os.getenv("8555860155:AAF4BaQ2IqOBSAoCWHiFrNZlKoAHFZeOUZo")
+OWNER_ID = int(os.getenv("OWNER_ID", 5811783004))
+OWNER_USERNAME = os.getenv("OWNER_USERNAME", "@shadowmonarchjii")
+BOT_USERNAME = os.getenv("BOT_USERNAME", "@IamMelodyX_Bot")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🛠️ Database & Deployment Configs
@@ -96,7 +96,7 @@ SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET", None)
 # 🧵 Session Strings (Pyrogram V2)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-STRING1 = os.getenv("STRING_SESSION", None)
+STRING1 = os.getenv("BQGzDsUAZa04ZJqK2K2Lpsw8jKAsGzMdJEKxjpRjck3pQEY_UGWvSArZq0IZ8NiJNXifmSatXLT7I-RzPM-ADuyDqLeXb8CMAKgLO-cic1xWASnIKx2WlcnXahIq_7KebyGJwctj_uSoPyY_5qpv3ozxrIhNED8m5JL9rJc_4yk7n447Op-Ppqpqwb0oSGjfsfB2qC5ViYu6MDZco5adk4BdeL7Ze6wsXfJX-NwXDMvYEpQNzDr_fyFgdmPx6fHGW-D4XfhgHdiR-OWgR7FkZCRzCUXzm1PAs8IkLGF8ka6XP4N_kd2H3CiI47pGdccmSv9Nirb0nGh7eH1qDbDsIfvIeu0dlgAAAAHKFlg8AA", None)
 STRING2 = os.getenv("STRING_SESSION2", None)
 STRING3 = os.getenv("STRING_SESSION3", None)
 STRING4 = os.getenv("STRING_SESSION4", None)
