@@ -35,19 +35,19 @@ load_dotenv()
 # 📲 Telegram & API Credentials
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-OWNER_ID = int(os.getenv("OWNER_ID", None))
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", "WTF_WhyMeeh")
-BOT_USERNAME = os.getenv("BOT_USERNAME", "ShrutixMusicBot")
+API_ID = int(os.getenv("33366736"))
+API_HASH = os.getenv("3cdd9d57996df6a3aa8f551913bc1fd9")
+BOT_TOKEN = os.getenv("8150846526:AAETRwCp9_wq3W7Yo6clYmGbZMup6Y4VpT4")
+OWNER_ID = int(os.getenv("OWNER_ID", 8189688996))
+OWNER_USERNAME = os.getenv("OWNER_USERNAME", "shdxmr")
+BOT_USERNAME = os.getenv("BOT_USERNAME", "DARKANGEL_MUSICBOT")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🛠️ Database & Deployment Configs
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-MONGO_DB_URI = os.getenv("MONGO_DB_URI", None)
-LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", None))
+MONGO_DB_URI = os.getenv("MONGO_DB_URI", mongodb+srv://bsdk:betichod@cluster0.fgj1r9z.mongodb.net/?retryWrites=true&w=majority)
+LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", -1003596116023))
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
@@ -63,12 +63,12 @@ GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 # 🔗 Support Links
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/ShrutiBots")
-SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/ShrutiBotSupport")
-INSTAGRAM = os.getenv("INSTAGRAM", "https://instagram.com/yaduwanshi_nand")
-YOUTUBE = os.getenv("YOUTUBE", "https://youtube.com/@NandEditz")
-GITHUB = os.getenv("GITHUB", "https://github.com/NoxxOP")
-DONATE = os.getenv("DONATE", "https://t.me/ShrutiBots/91")
+SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/abtshd")
+SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/+BwsESIsQ4EcxNTg9")
+INSTAGRAM = os.getenv("INSTAGRAM", "")
+YOUTUBE = os.getenv("YOUTUBE", "")
+GITHUB = os.getenv("GITHUB", "")
+DONATE = os.getenv("DONATE", "")
 PRIVACY_LINK = os.getenv("PRIVACY_LINK", "https://graph.org/Privacy-Policy-05-01-30")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -96,7 +96,7 @@ SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET", None)
 # 🧵 Session Strings (Pyrogram V2)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-STRING1 = os.getenv("STRING_SESSION", None)
+STRING1 = os.getenv("STRING_SESSION", BQJDvkkAj6Z_8cNbqTkylFdYpjR3_8ynb1855S_WpN3pt4F6mR98UTi7EJ1TSyVqIbGKw0bun2C8qDZkDbGi_Ip2n6izrOOJlapXXYN_dsBNbufZpdOXy4h8QXZ4E4Qrm0OH_nJxpMgyzGwpbk3x_HlWvoSijvRWty62Eif8pDd7KdJ2FB-6j51pRRlwjg3sAokIvU9g-lxURbqvHsqWFMycEU8Mc6Aggw8R3F1zsmzLt0jtumyUZph7dzsFHY07wQSFN3OvqnJ0omOlSbjWGfAs9gDYcPNNm430LLBBney2VREJQoSOwZPMDJiBchzgZVxUqBjiD8g1VISbEOYs5hAUE9AiwwAAAAH1lpPAAA)
 STRING2 = os.getenv("STRING_SESSION2", None)
 STRING3 = os.getenv("STRING_SESSION3", None)
 STRING4 = os.getenv("STRING_SESSION4", None)
